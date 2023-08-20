@@ -1,0 +1,42 @@
+.single-product {
+  .thumbnail-wrapper {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    .thumbnail {
+      width: 100%;
+      transition: $transition;
+    }
+    .badge {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+  }
+  .contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .title {
+      font-family: $heading-font;
+      font-size: 16px;
+      color: $white-color;
+      text-transform: capitalize;
+      line-height: 1;
+      font-weight: 500;
+    }
+    .price {
+      font-family: $heading-font;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+
+  &:hover {
+     .thumbnail-wrapper {
+        .thumbnail {
+          transform: scale(1.1);
+        }
+        }
+    }
+}

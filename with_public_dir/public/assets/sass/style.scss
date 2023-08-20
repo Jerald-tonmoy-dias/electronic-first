@@ -1,0 +1,26 @@
+/*
+Theme Name: Electronic First - Ecommerce HTML5 Template
+Author: Jerald Tonmoy Dias
+Description: Electronic First - Ecommerce HTML5 Template. 
+Version: 1.1.0
+*/
+
+
+/******************** base  ********************/
+@import 'base/variables';
+@import 'base/mixin';
+@import 'base/reset';
+@import 'base/typography';
+
+
+/******************** components  ********************/
+@import 'components/header';
+@import 'components/navbar';
+@import 'components/megamenu';
+@import 'components/searchbar';
+@import 'components/product';
+@import 'components/themeclass';
+
+
+/******************** page styles  ********************/
+@import 'pages/index';

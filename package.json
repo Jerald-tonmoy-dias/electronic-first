@@ -1,0 +1,21 @@
+{
+  "name": "ef",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build-css": "node-sass public/assets/sass/style.scss -o public/assets/css",
+    "watch-css": "node-sass public/assets/sass/style.scss -o public/assets/css --watch"
+  },
+  "devDependencies": {
+    "stylelint": "^15.10.3",
+    "stylelint-prettier": "^4.0.2",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
